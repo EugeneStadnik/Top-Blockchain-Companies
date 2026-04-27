@@ -1,0 +1,10 @@
+node_modules
+.next
+.turbo
+.git
+.gitignore
+.husky
+.vscode
+.idea
+**/*.md
+dist

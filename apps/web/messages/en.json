@@ -1,0 +1,119 @@
+{
+  "errors": {
+    "globalErrorDefault": "An unexpected error occurred. Please try again later."
+  },
+  "notFound": {
+    "label": "404 Error",
+    "title": "Page not found",
+    "description": "The page you are looking for does not exist, may have been moved, or the URL might be incorrect.",
+    "primaryCta": "Go to homepage"
+  },
+  "buttonBack": {
+    "back": "Back"
+  },
+  "brandName": {
+    "title": "Peiko"
+  },
+  "landing": {
+    "footer": {
+      "rights": "2026 Peiko. All rights reserved"
+    }
+  },
+
+  "blockchainCompanies": {
+    "hero": {
+      "exampleBadge": "Frontend directory example",
+      "sourceBadge": "Blockchain company shortlist",
+      "title": "Top Blockchain Companies",
+      "description": "A polished directory interface for comparing blockchain development partners by service focus, region, project budget, profile strength, and hourly rate. A featured partner is highlighted first.",
+      "primaryCta": "Request blockchain shortlist",
+      "secondaryCta": "Explore companies"
+    },
+    "stats": {
+      "companies": "Companies",
+      "topRating": "Top rating",
+      "rateRange": "Market rate",
+      "blockchainFocus": "Blockchain focus"
+    },
+    "featured": {
+      "eyebrow": "Featured #1",
+      "primaryAction": "Request shortlist",
+      "secondaryAction": "Compare all"
+    },
+    "list": {
+      "title": "Blockchain company comparison",
+      "description": "Filter the company list by service, region, budget, and profile strength. The list is rendered from the API data layer so the page behaves like a real directory surface.",
+      "empty": "No companies match the selected filters."
+    },
+    "card": {
+      "rating": "Rating",
+      "reviews": "reviews",
+      "score": "Profile score",
+      "rate": "Hourly rate",
+      "project": "Min. project",
+      "team": "Team size",
+      "location": "Location",
+      "action": "Request fit review"
+    },
+    "filters": {
+      "resultCount": "{count} results",
+      "clearAll": "Clear All",
+      "search": {
+        "title": "Search",
+        "placeholder": "Search companies, services, or industries..."
+      },
+      "service": {
+        "title": "Service",
+        "all": "All services",
+        "blockchain": "Blockchain development",
+        "smartContracts": "Smart contracts",
+        "defi": "DeFi",
+        "web3": "Web3",
+        "wallet": "Wallets",
+        "tokenization": "Tokenization"
+      },
+      "region": {
+        "title": "Region",
+        "all": "All regions",
+        "northAmerica": "North America",
+        "europe": "Europe",
+        "asia": "Asia"
+      },
+      "budget": {
+        "title": "Budget",
+        "all": "Any budget",
+        "under10k": "Under $10k",
+        "from10k": "$10k+",
+        "from25k": "$25k+"
+      },
+      "sort": {
+        "title": "Sort",
+        "recommended": "Recommended",
+        "score": "Profile score",
+        "focus": "Blockchain focus",
+        "budget": "Budget low to high"
+      }
+    },
+    "methodology": {
+      "title": "Comparison model",
+      "description": "The page is structured for buyers who need to scan blockchain partners quickly and move from comparison to contact intent.",
+      "items": {
+        "profile": {
+          "title": "Profile-first",
+          "description": "Cards surface rate, budget, location, team size, and service focus before long copy."
+        },
+        "fit": {
+          "title": "Buyer filters",
+          "description": "Search and selects map to URL query params and API-level filtering."
+        },
+        "conversion": {
+          "title": "Clear next step",
+          "description": "Each card keeps a single action focused on shortlist intent."
+        }
+      }
+    },
+    "toast": {
+      "inquiry": "Shortlist request recorded."
+    }
+  }
+}
