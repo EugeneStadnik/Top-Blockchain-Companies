@@ -5,9 +5,9 @@ const withBundleAnalyzer = bundleAnalyzer({
   enabled: process.env.ANALYZE === "true",
 })
 
-const repoName = "Top-Blockchain-Companies"
+const repoName = process.env.GITHUB_REPOSITORY?.split("/")[1]
 const isGithubPages = process.env.GITHUB_ACTIONS === "true"
-const basePath = isGithubPages ? `/${repoName}` : ""
+const basePath = isGithubPages && repoName ? `/${repoName}` : ""
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
