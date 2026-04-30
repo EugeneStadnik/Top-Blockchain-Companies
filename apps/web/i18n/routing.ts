@@ -7,5 +7,5 @@ export enum ELocales {
 export const routing = defineRouting({
   locales: [ELocales.EN],
   defaultLocale: ELocales.EN,
-  localePrefix: "as-needed",
+  localePrefix: "always",
 })
