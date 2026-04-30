@@ -5,9 +5,16 @@ const withBundleAnalyzer = bundleAnalyzer({
   enabled: process.env.ANALYZE === "true",
 })
 
+const repoName = "Top-Blockchain-Companies"
+const isGithubPages = process.env.GITHUB_ACTIONS === "true"
+const basePath = isGithubPages ? `/${repoName}` : ""
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
+  basePath,
+  assetPrefix: basePath ? `${basePath}/` : undefined,
+  trailingSlash: true,
   images: {
     unoptimized: true,
   },
