@@ -7,7 +7,10 @@ const withBundleAnalyzer = bundleAnalyzer({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "standalone",
+  output: "export",
+  images: {
+    unoptimized: true,
+  },
   transpilePackages: ["@library/ui"],
   webpack: (config) => {
     config.cache = false
